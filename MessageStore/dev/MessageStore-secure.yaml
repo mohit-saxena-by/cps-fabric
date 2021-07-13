@@ -1,0 +1,24 @@
+MSDatabase:
+  user-secure: "CONNECT_MS_APP"
+  password-secure: "P@ssword1"
+
+server:
+
+  https:
+    tls:
+      keyStore:
+        password-secure: "changeme"
+        key:
+          password-secure: "changeme"
+      trustStore:
+        password-secure: "changeme"
+        
+  request:
+    replay:
+      tls:
+        keyStore:
+          password-secure: "changeme"
+          key:
+            password-secure: "changeme"
+        trustStore:  
+          password-secure: "changeme"    
