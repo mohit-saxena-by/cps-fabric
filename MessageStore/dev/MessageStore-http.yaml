@@ -8,11 +8,11 @@ server:
     
   http:
     host: "0.0.0.0"
-    port: "9831"
+    port: "8081"
     
   https:
     host: "0.0.0.0"
-    port: "9830"
+    port: "8082"
     tls:
       context: "HTTPS_Listener_TLS_Context"
       #context: "HTTPS_Listener_TLS_Context_with_Trust"
