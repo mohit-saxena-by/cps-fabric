@@ -1,0 +1,10 @@
+services:
+  listener: 
+    https:
+      tls:
+        keyStore:
+          password-secure: "changeme"
+          key:
+            password-secure: "changeme"
+        trustStore:
+          password-secure: "changeme"

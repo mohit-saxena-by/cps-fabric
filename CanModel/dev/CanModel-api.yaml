@@ -1,0 +1,6 @@
+canModel:
+  constant: "-model."
+  extension: "jar"
+api:
+  manager:
+    id: "0000"
