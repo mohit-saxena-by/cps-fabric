@@ -1,0 +1,17 @@
+!srs-configuration-v1
+receiverMappings:
+- receiver: 'WMA.WEST.2'
+  service: 'WMA.WEST'
+  enabled: false
+- receiver: 'WMA.WEST.*'
+  service: 'WMA.WEST'
+jmbs:
+- JMB1
+services:
+- TMA.GLOBAL
+- WMA.EAST
+- WMA.WEST
+- WMA.SOUTH
+- AUDIT
+
+
