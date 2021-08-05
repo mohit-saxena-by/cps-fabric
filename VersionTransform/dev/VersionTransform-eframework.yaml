@@ -1,0 +1,10 @@
+eframework:
+  applicationId: vts
+  errorReport:
+    enabled: false
+    title: Version Transformation Service error
+    payload:
+      transaction:
+        size: 2048
+    htmlTemplatePath: errorReportTemplate.html
+    errorReportPath: ../logs/errorReports/jda-version-transformation-service
